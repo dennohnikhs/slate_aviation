@@ -11,7 +11,7 @@ export default function SiteHeader({ siteConfig }) {
     <header className="sticky top-0 z-50 border-b border-white/10 bg-slate-950/80 backdrop-blur">
       <div className="mx-auto flex w-full max-w-6xl items-center justify-between gap-4 px-4 py-3.5">
         <Link className="flex items-center gap-3" href="/" aria-label={`${siteConfig.name} home`}>
-          <span className="inline-grid h-10 w-10 place-items-center rounded-xl bg-amber-400 font-extrabold text-slate-950">S</span>
+          <img src="/slate-aviation-logo.png" alt="Slate Aviation logo" className="h-10 w-10" />
           <span>
             <strong className="block leading-none">Slate Aviation</strong>
             <small className="block text-xs text-slate-400">Services Africa</small>
