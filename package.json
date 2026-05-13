@@ -1,0 +1,38 @@
+{
+  "name": "slate-aviation-services-africa",
+  "version": "1.0.0",
+  "description": "Slate Aviation Services Africa website",
+  "private": true,
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
+    "lint": "next lint",
+    "generate:sitemap": "node scripts/generate-sitemap.js"
+  },
+  "keywords": [
+    "aviation",
+    "meet and greet",
+    "ground handling",
+    "fuel coordination",
+    "overflight permits",
+    "helicopter charter"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "next": "^15.3.2",
+    "nodemailer": "^6.10.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.17.6",
+    "@types/react": "19.2.14",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17",
+    "typescript": "5.8.2"
+  }
+}
